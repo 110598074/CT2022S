@@ -460,12 +460,12 @@
 
 				/** autoload font data */
 				/** Your code goes here */
-				// d3.request('./TaipeiSansTCBeta-Light.ttf')
-                //     .responseType('arraybuffer')
-                //     .get(function(d){
-                //         openTypeFont = opentype.parse(d.response);
-                //     })
-                // ;
+				d3.request('./TaipeiSansTCBeta-Light.ttf')
+                    .responseType('arraybuffer')
+                    .get(function(d){
+                        openTypeFont = opentype.parse(d.response);
+                    })
+                ;
                 /***/
 
 
